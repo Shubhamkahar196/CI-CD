@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ProcessManagement() {
   return (
     <div className="min-h-screen bg-zinc-50 dark:bg-black font-sans">
@@ -110,12 +112,12 @@ DATABASE_URL=postgresql://user:password@localhost:5432/db`}
         </section>
 
         <div className="mt-8">
-          <a
+          <Link
             href="/"
             className="text-blue-600 dark:text-blue-400 hover:underline"
           >
             ← Back to Home
-          </a>
+          </Link>
         </div>
       </div>
     </div>
